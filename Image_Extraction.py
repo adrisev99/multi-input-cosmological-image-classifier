@@ -4,8 +4,8 @@ import os
 import pandas as pd
 
 # name of the file
-fmaps = r'C:\Users\adria\Documents\VSCode Projects\JHU24\CMDs\Maps_Mcdm_IllustrisTNG_LH_z=0.00.npy'
-fparams = r'C:\Users\adria\Documents\VSCode Projects\JHU24\CMDs\params_LH_IllustrisTNG.txt'
+fmaps = r'.\Maps_Mcdm_IllustrisTNG_LH_z=0.00.npy'
+fparams = r'.\params_LH_IllustrisTNG.txt'
 
 # read the data
 maps = np.load(fmaps)
