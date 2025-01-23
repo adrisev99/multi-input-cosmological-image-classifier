@@ -24,7 +24,7 @@ X_params = []
 y = []  
 
 for type_index, type_name in enumerate(types):
-    folder = os.path.join(r'C:\Users\adria\Documents\VSCode Projects\JHU24\CMDs\MapImages', type_name)
+    folder = os.path.join(r'.\MapImages', type_name)
     params_df = pd.read_csv(os.path.join(folder, 'map_parameters.csv'))
 
     for index, row in params_df.iterrows():
